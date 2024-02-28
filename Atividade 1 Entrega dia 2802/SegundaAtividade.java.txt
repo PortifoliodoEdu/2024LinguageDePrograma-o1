@@ -1,0 +1,13 @@
+/* Online Java Compiler and Editor */
+public class SegundaAtividade{
+
+     public static void main(String []args){
+        System.out.println("Aqui esta a"); 
+
+     public static void main(String []args){
+        System.out.println("segunda atividade"); 
+
+     }
+}
+
+
