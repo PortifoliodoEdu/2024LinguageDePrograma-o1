@@ -20,10 +20,10 @@ public class CalculoFracao {
 
         // Pedindo o tipo de cálculo
         System.out.println("Qual cálculo você deseja realizar?");
-        System.out.println("1 - Soma ➕");
-        System.out.println("2 - Subtração ➖");
-        System.out.println("3 - Divisão ➗");
-        System.out.println("4 - Multiplicação ✖️");
+        System.out.println("1 - Soma ");
+        System.out.println("2 - Subtração ");
+        System.out.println("3 - Divisão ");
+        System.out.println("4 - Multiplicação ");
 
         int escolha = scanner.nextInt();
         scanner.close();
