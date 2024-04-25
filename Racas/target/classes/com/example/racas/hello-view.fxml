@@ -9,16 +9,16 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.racas.Controller">
 
-  <Label text="Raça do dnd:" layoutX="10" layoutY="10"/>
+  <Label text="Raça do dnd: " layoutX="10" layoutY="10"/>
   <TextField fx:id="especieTextField" layoutX="120" layoutY="10"/>
 
   <Label text="Cor da raça:" layoutX="10" layoutY="70"/>
   <TextField fx:id="corTextField" layoutX="120" layoutY="70"/>
 
-  <Label text="Tamanho do raça:" layoutX="10" layoutY="40"/>
+  <Label text="Tamanho da raça: " layoutX="10" layoutY="40"/>
   <TextField fx:id="tamanhoTextField" layoutX="120" layoutY="40"/>
 
-  <Label text="Classe da raça:" layoutX="10" layoutY="100"/>
+  <Label text="Classe da raça: " layoutX="10" layoutY="100"/>
   <TextField fx:id="classeTextField" layoutX="120" layoutY="100"/>
 
   <Button text="Submeter" layoutX="10" layoutY="130" onAction="#gerarFrase"/>

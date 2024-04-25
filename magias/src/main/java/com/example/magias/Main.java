@@ -11,7 +11,7 @@ public class Main extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
-        primaryStage.setScene(new Scene(root, 300, 200));
+        primaryStage.setScene(new Scene(root, 700, 700));
         primaryStage.setTitle("Cadastro de magias");
         primaryStage.show();
     }
